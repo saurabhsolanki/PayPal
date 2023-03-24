@@ -1,0 +1,83 @@
+#homeDiv{
+    border-radius: 15px;
+}
+
+.styled-table{
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    max-width: 900px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-top: 3%;
+}
+
+
+.styled-table thead tr{
+    background-color: #48bb78;
+    color: white;
+    text-align: left;
+}
+
+.styled-table th, .styled-table td{
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr{
+    border-bottom: 1px solid gray;
+}
+
+/* .styled-table tbody tr:nth-of-type(even){
+    background-color: rgb(232, 232, 232);
+} */
+
+.styled-table tbody tr:hover{
+    background-color: #f9fafb;
+    color: black;
+}
+
+.styled-table tbody tr:last-of-type{
+    border-bottom: 2px solid green;
+}
+
+.btn{
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn-edit{
+    background-color: #d8f3e3;
+}
+
+.btn-delete{
+    background-color: rgb(238, 80, 80);
+}
+.btn-delete:hover{
+    background-color: rgb(226, 33, 33);
+    transform: scale(1.05);
+}
+
+.btn-view{
+    background-color: wheat;
+    color: black;
+}
+.btn-view:hover{
+    background-color: rgb(241, 202, 131);
+    color: black;
+    transform: scale(1.05);
+}
+
+.btn-contact{
+    background-color: #e82764;
+    margin-bottom: 10px;
+}

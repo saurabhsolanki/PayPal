@@ -1,0 +1,30 @@
+#mainTaskDiv{
+    background-image: url("https://img.freepik.com/free-vector/tropical-background-with-different-leaves_52683-36517.jpg?w=2000") ;
+    height:700px;
+    width:100%;
+    background-position: top left;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+#weekMainDiv{
+    width: 30%;
+    margin: auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 20px 10px;
+    padding-bottom: 50px;
+}
+
+#taskDiv{
+    width: 70%;
+    margin: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 30px 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+}

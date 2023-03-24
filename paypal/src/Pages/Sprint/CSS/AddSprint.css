@@ -1,0 +1,14 @@
+#weekListDiv{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+}
+#weekListDiv div{
+    background-color: #ffc02c;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 15px;
+}
