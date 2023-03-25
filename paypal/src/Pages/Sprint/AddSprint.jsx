@@ -22,20 +22,20 @@ const AddSprint = () => {
   function handleSubmit(e) {
     e.preventDefault();
     // console.log(form)
-    axios.post("http://localhost:8080/sprint", form).then((res) => {
+    axios.post("https://paypal-c1m0.onrender.com/sprint", form).then((res) => {
       console.log(res.data.message);
       getWeek();
     });
   }
 
   const getWeek = () => {
-    axios.get("http://localhost:8080/sprint").then((res) => {
+    axios.get("https://paypal-c1m0.onrender.com/sprint").then((res) => {
       setData(res.data);
     });
   };
 
   const deleteWeek = (id) => {
-    axios.delete(`http://localhost:8080/sprint/${id}`).then((res) => {
+    axios.delete(`https://paypal-c1m0.onrender.com/sprint/${id}`).then((res) => {
       console.log(res);
       getWeek();
     });

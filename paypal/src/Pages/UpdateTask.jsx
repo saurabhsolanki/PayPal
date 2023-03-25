@@ -17,7 +17,7 @@ const UpdateTask = ({item,getTask}) => {
       function handleSubmit(e,id) {
         e.preventDefault();
         // console.log(form,id)
-        axios.patch(`http://localhost:8080/task/${id}`,form).then((res)=>{
+        axios.patch(`https://paypal-c1m0.onrender.com/task/${id}`,form).then((res)=>{
             console.log(res.data.message)
             getTask()
         })

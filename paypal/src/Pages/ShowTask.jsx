@@ -9,7 +9,7 @@ const ShowTask = ({data,DeleteTask, getTask}) => {
 
 
     const toggleTask=(id,status)=>{
-        axios.patch(`http://localhost:8080/task/${id}`,status).then((res)=>{
+        axios.patch(`https://paypal-c1m0.onrender.com/task/${id}`,status).then((res)=>{
             console.log(res.data.message)
             getTask()
         })

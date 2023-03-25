@@ -29,7 +29,7 @@ const TaskPage = () => {
   function handleSubmit(e) {
     e.preventDefault();
     // console.log(form)
-    axios.post("http://localhost:8080/task", form).then((res) => {
+    axios.post("https://paypal-c1m0.onrender.com/task", form).then((res) => {
       console.log(res.data.message);
       toast({
         title: `${res.data.message}`,
@@ -43,14 +43,14 @@ const TaskPage = () => {
   }
 
   const getTask = () => {
-    axios.get("http://localhost:8080/task").then((res) => {
+    axios.get("https://paypal-c1m0.onrender.com/task").then((res) => {
       console.log(res.data);
       setData(res.data);
     });
   };
 
   const DeleteTask = (id) => {
-    axios.delete(`http://localhost:8080/task/${id}`).then((res) => {
+    axios.delete(`https://paypal-c1m0.onrender.com/task/${id}`).then((res) => {
       toast({
         title: `${res.data.message}`,
         status: "success",
